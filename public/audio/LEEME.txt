@@ -1,0 +1,22 @@
+CARPETA DE AUDIOS — "Rueda de acompañamiento"
+=====================================================
+
+Las 8 meditaciones guiadas ya están incorporadas en esta carpeta,
+con nombres simples (sin espacios, tildes ni paréntesis) para
+evitar errores de ruta:
+
+  ansiedad-me-lleva-al-manana.mp3    → Ansiedad y preocupación · "Cuando la ansiedad me lleva al mañana"
+  tristeza-me-permito-sentir.mp3     → Tristeza · "Tristeza: me permito sentir para sanar"
+  entrego-mis-miedos.mp3             → Miedo e inseguridad · "Entrego mis miedos"
+  suelto-el-enojo.mp3                → Enojo e irritabilidad · "Suelto el enojo, elijo la paz"
+  un-dia-a-la-vez.mp3                → Estrés y agobio · "Un día a la vez"
+  soledad-se-vuelve-encuentro.mp3    → Soledad o desconexión · "Cuando la soledad se vuelve encuentro"
+  cuando-el-alma-pide-descanso.mp3   → Cansancio emocional · "Cuando el alma pide descanso"
+  la-noche-no-necesita-respuestas.mp3 → Dormir y descansar · "La noche no necesita respuestas"
+
+Si en el futuro querés reemplazar alguna meditación, subí el nuevo
+MP3 con el mismo nombre a esta carpeta (o cambiá la ruta `audio`
+del estado correspondiente en src/acompanamiento/data.js).
+
+Estas rutas están centralizadas en:
+  src/acompanamiento/data.js
