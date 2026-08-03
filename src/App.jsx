@@ -7,11 +7,13 @@ import EstadoScreen from "./acompanamiento/EstadoScreen.jsx";
    App de acompañamiento — React, single file
    ========================================================= */
 
-const LOGO_SRC = "/images/logo.webp";
+const BASE_URL = import.meta.env.BASE_URL;
+
+const LOGO_SRC = `${BASE_URL}images/logo.webp`;
 
 /* ---- Datos de contacto: número de WhatsApp y página de Canva de Romi ---- */
 
-const INICIO_COVER_SRC = "/images/inicio-portada.webp";
+const INICIO_COVER_SRC = `${BASE_URL}images/inicio-portada.webp`;
 
 const WHATSAPP_NUMBER = "5493471677248";
 const CANVA_URL = "https://tecnicaestructuralromi.my.canva.site/romi";
