@@ -2,13 +2,14 @@
   "name": "Técnica Estructural | por Romi Calcaterra",
   "short_name": "Técnica Estructural",
   "description": "Acompañamiento personalizado para transitar tu proceso con calma, confianza y respeto por tus tiempos.",
-  "start_url": "/",
+  "start_url": "/espacio-de-calma/",
+  "scope": "/espacio-de-calma/",
   "display": "standalone",
   "background_color": "#FAF6F1",
   "theme_color": "#C96B4B",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "/espacio-de-calma/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/espacio-de-calma/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/espacio-de-calma/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
