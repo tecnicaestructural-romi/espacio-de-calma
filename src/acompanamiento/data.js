@@ -24,6 +24,8 @@
    el resto de la aplicación.
    ========================================================= */
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 export const ESTADOS = [
   {
     key: "ansiedad",
@@ -31,7 +33,7 @@ export const ESTADOS = [
     icon: "ansiedad",
     texto:
       "Cuando la mente intenta adelantarse a todo, volver al presente puede ayudarnos a recuperar un poco de espacio. No necesitás resolver ahora todo lo que podría suceder.",
-    meditacion: { titulo: "Cuando la ansiedad me lleva al mañana", audio: "/audio/ansiedad-me-lleva-al-manana.mp3" },
+    meditacion: { titulo: "Cuando la ansiedad me lleva al mañana", audio: `${BASE_URL}audio/ansiedad-me-lleva-al-manana.mp3` },
     respiracion: {
       titulo: "Exhalo y vuelvo al presente",
       texto: "Cuando la mente se adelanta a todo, una exhalación más lenta puede ayudarte a regresar suavemente a este momento.",
@@ -60,7 +62,7 @@ export const ESTADOS = [
     icon: "tristeza",
     texto:
       "No tenés que esconder lo que sentís ni apurarte a estar bien. Podés darle un lugar a tu tristeza y permitir que tu corazón exprese aquello que viene sosteniendo.",
-    meditacion: { titulo: "Tristeza: me permito sentir para sanar", audio: "/audio/tristeza-me-permito-sentir.mp3" },
+    meditacion: { titulo: "Tristeza: me permito sentir para sanar", audio: `${BASE_URL}audio/tristeza-me-permito-sentir.mp3` },
     respiracion: {
       titulo: "Le doy espacio a lo que siento",
       texto: "No necesitás contener lo que sentís. Permití que la respiración acompañe este momento sin intentar cambiarlo.",
@@ -89,7 +91,7 @@ export const ESTADOS = [
     icon: "miedo",
     texto:
       "El miedo intenta protegernos, aunque a veces ocupe demasiado espacio. Podés reconocerlo sin luchar contra él y acompañarte mientras atravesás este momento.",
-    meditacion: { titulo: "Entrego mis miedos", audio: "/audio/entrego-mis-miedos.mp3" },
+    meditacion: { titulo: "Entrego mis miedos", audio: `${BASE_URL}audio/entrego-mis-miedos.mp3` },
     respiracion: {
       titulo: "Respiro y recupero sostén",
       texto: "No necesitás obligarte a dejar de sentir miedo. Esta respiración te acompaña a recuperar un poco de estabilidad.",
@@ -123,7 +125,7 @@ export const ESTADOS = [
     icon: "enojo",
     texto:
       "El enojo puede aparecer cuando algo duele, frustra o atraviesa nuestros límites. No necesitás negarlo ni reaccionar inmediatamente. Primero podés escucharlo.",
-    meditacion: { titulo: "Suelto el enojo, elijo la paz", audio: "/audio/suelto-el-enojo.mp3" },
+    meditacion: { titulo: "Suelto el enojo, elijo la paz", audio: `${BASE_URL}audio/suelto-el-enojo.mp3` },
     respiracion: {
       titulo: "Creo un espacio antes de reaccionar",
       texto: "El enojo puede traer mucha intensidad al cuerpo. Esta pausa te ayuda a crear un pequeño espacio antes de actuar.",
@@ -154,7 +156,7 @@ export const ESTADOS = [
     icon: "estres",
     texto:
       "Cuando sentís que todo es demasiado, no necesitás resolverlo todo al mismo tiempo. Podés detenerte y regresar solamente al próximo paso.",
-    meditacion: { titulo: "Un día a la vez", audio: "/audio/un-dia-a-la-vez.mp3" },
+    meditacion: { titulo: "Un día a la vez", audio: `${BASE_URL}audio/un-dia-a-la-vez.mp3` },
     respiracion: {
       titulo: "No tengo que resolver todo ahora",
       texto: "Durante estos instantes, no necesitás atender cada pendiente. Volvé solamente a una respiración por vez.",
@@ -183,7 +185,7 @@ export const ESTADOS = [
     icon: "soledad",
     texto:
       "Estar a solas no es lo mismo que sentirse sola. A veces, la soledad duele; otras veces puede convertirse en un espacio para escucharte, recordar tu valor y volver a encontrarte con vos. No necesitás buscar rápidamente afuera aquello que primero podés comenzar a reconocer dentro tuyo.",
-    meditacion: { titulo: "Cuando la soledad se vuelve encuentro", audio: "/audio/soledad-se-vuelve-encuentro.mp3" },
+    meditacion: { titulo: "Cuando la soledad se vuelve encuentro", audio: `${BASE_URL}audio/soledad-se-vuelve-encuentro.mp3` },
     respiracion: {
       titulo: "Vuelvo a mi propia presencia",
       texto: "Esta respiración no reemplaza los vínculos que necesitás. Te ofrece un momento para volver a escucharte antes de elegir desde el miedo a estar sola.",
@@ -220,7 +222,7 @@ export const ESTADOS = [
     icon: "cansancio",
     texto:
       "No todo cansancio se resuelve esforzándote un poco más. Tal vez hoy tu cuerpo y tu corazón necesitan permiso para detenerse.",
-    meditacion: { titulo: "Cuando el alma pide descanso", audio: "/audio/cuando-el-alma-pide-descanso.mp3" },
+    meditacion: { titulo: "Cuando el alma pide descanso", audio: `${BASE_URL}audio/cuando-el-alma-pide-descanso.mp3` },
     respiracion: {
       titulo: "Dejo de sostener por un momento",
       texto: "No tenés que utilizar esta práctica para esforzarte un poco más. Durante unos instantes, permitite no sostener nada.",
@@ -262,7 +264,7 @@ export const ESTADOS = [
     icon: "dormir",
     texto:
       "No necesitás terminar de ordenar cada pensamiento antes de dormir. Podés dejar el día por un momento y permitir que tu cuerpo comience a descansar.",
-    meditacion: { titulo: "La noche no necesita respuestas", audio: "/audio/la-noche-no-necesita-respuestas.mp3", destacada: true },
+    meditacion: { titulo: "La noche no necesita respuestas", audio: `${BASE_URL}audio/la-noche-no-necesita-respuestas.mp3`, destacada: true },
     respiracion: {
       titulo: "Dejo que el día termine",
       texto: "No necesitás hacer ningún esfuerzo para dormir. Esta respiración solamente te acompaña a dejar de perseguir el sueño.",
