@@ -50,11 +50,12 @@ export const ESTADOS = [
       ],
     },
     oracion: {
-      texto:
-        "Dios, hoy mi mente se adelanta a cosas que todavía no pasaron. Te pido que me ayudes a volver a este momento y a soltar en tus manos lo que no depende de mí. Acompañame a dar solamente el paso que tengo delante, con la confianza de que no estoy sola/o en esto.",
-      versiculo: "No se angustien por nada; en toda ocasión presenten sus peticiones a Dios.",
-      referencia: "Filipenses 4:6",
-    },
+  texto:
+    "Dios, hoy mi mente está llena de pensamientos que se adelantan, preguntas que todavía no tienen respuesta y situaciones que no puedo controlar. Te entrego cada preocupación, incluso aquellas que no sé explicar con palabras. Ayudame a volver a este momento, a respirar con calma y a recordar que no tengo que resolver toda mi vida hoy. Abrazá mi corazón cuando sienta que todo es demasiado y regalame la serenidad que necesito para dar un paso a la vez. Aunque todavía no pueda ver el camino completo, elijo confiar en que no estoy sola y en que tu presencia me sostiene. Que tu paz aquiete mis pensamientos y me recuerde que, aun en medio de la incertidumbre, sigo estando cuidada. Amén.",
+  versiculo:
+    "No se angustien por nada; más bien, presenten sus peticiones a Dios en toda oración.",
+  referencia: "Filipenses 4:6",
+},
   },
   {
     key: "tristeza",
@@ -79,11 +80,12 @@ export const ESTADOS = [
       ],
     },
     oracion: {
-      texto:
-        "Dios, hoy mi corazón está triste y no quiero apurarme a estar bien. Te pido que te acerques a mí en este momento, que sostengas lo que hoy pesa y me acompañes mientras dejo salir lo que necesito soltar. Gracias porque no tengo que atravesar esto sola/o.",
-      versiculo: "Cercano está el Señor a los quebrantados de corazón.",
-      referencia: "Salmo 34:18",
-    },
+  texto:
+    "Dios, hoy mi corazón se siente triste y quizás ni siquiera puedo explicar completamente lo que me pasa. Vos conocés cada lágrima, cada ausencia, cada herida y cada palabra que quedó guardada dentro de mí. No te pido que apresures mi proceso, sino que me acompañes mientras atravieso este momento. Permitirme llorar lo que necesite llorar, descansar cuando no tenga fuerzas y sentir que tu amor me abraza aun cuando todo parezca oscuro. Ayudame a recordar que esta tristeza no define toda mi historia y que, aunque hoy no pueda verlo, la vida puede volver a florecer dentro de mí. Recibí lo que me duele, sostené mi corazón con ternura y regalame la esperanza necesaria para continuar. Amén.",
+  versiculo:
+    "Cercano está el Señor a los quebrantados de corazón.",
+  referencia: "Salmo 34:18",
+},
   },
   {
     key: "miedo",
@@ -112,12 +114,13 @@ export const ESTADOS = [
         "Repetí lentamente: \"No necesito que el miedo desaparezca para poder avanzar.\"",
       ],
     },
-    oracion: {
-      texto:
-        "Dios, hoy siento miedo y no quiero atravesarlo desde mis propias fuerzas. Quedate cerca de mí y ayudame a recordar que no camino en soledad. Dame claridad para reconocer lo que sí puedo hacer, sabiduría para aceptar lo que no depende de mí y valentía para dar solamente el próximo paso. Que tu presencia sea más grande que aquello que hoy me asusta.",
-      versiculo: "Si Dios está con nosotros, ¿quién podrá estar contra nosotros?",
-      referencia: "Romanos 8:31",
-    },
+   oracion: {
+  texto:
+    "Dios, vos conocés los temores que muestro y también aquellos que escondo para que nadie los vea. Sabés cuántas veces dudé de mí, de mis decisiones y de mi capacidad para seguir adelante. Hoy pongo en tus manos todo aquello que me paraliza. Recordame que no necesito tener todas las respuestas para avanzar y que puedo dar pequeños pasos, aun cuando todavía sienta miedo. Fortalecé mi interior, ayudame a reconocer el valor que sembraste en mí y a confiar en que no camino sola. Que cada pensamiento de inseguridad sea reemplazado por la certeza de que soy valiosa, capaz y profundamente amada. Dame sabiduría para distinguir cuándo esperar y cuándo avanzar, y sosteneme mientras aprendo a confiar nuevamente en mí, en la vida y en tu guía. Amén.",
+  versiculo:
+    "No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios que te fortalece.",
+  referencia: "Isaías 41:10",
+},
   },
   {
     key: "enojo",
@@ -143,12 +146,13 @@ export const ESTADOS = [
         "Evitá enviar mensajes o tomar decisiones mientras la emoción se encuentre muy intensa.",
       ],
     },
-    oracion: {
-      texto:
-        "Dios, hoy siento enojo y no quiero que decida por mí. Ayudame a escuchar qué hay detrás de lo que siento, sin negarlo y sin lastimar. Dame calma para actuar desde la firmeza y no desde la reacción, y recordame que puedo entregarte lo que todavía no sé cómo resolver.",
-      versiculo: "Todos deben estar listos para escuchar, y ser lentos para hablar y para enojarse.",
-      referencia: "Santiago 1:19",
-    },
+   oracion: {
+  texto:
+    "Dios, hoy reconozco el enojo que vive dentro de mí. Quizás nació de una injusticia, de una decepción, de una herida o de haber callado demasiado tiempo. No quiero esconderlo ni permitir que lastime mi corazón o a las personas que amo. Ayudame a comprender qué necesita mostrarme esta emoción. Dame claridad para poner límites sanos, palabras serenas para expresar lo que siento y sabiduría para no reaccionar desde el dolor. Liberame de aquello que ya no necesito seguir cargando y enseñame a perdonar sin negar lo vivido ni abandonar mi dignidad. Transformá mi enojo en fuerza para cuidarme, en valentía para decir mi verdad y en paz para elegir cómo continuar. Que tu amor ordene mis pensamientos y calme mi corazón. Amén.",
+  versiculo:
+    "Aírense, pero no pequen; no permitan que el enojo permanezca en su corazón.",
+  referencia: "Efesios 4:26",
+},
   },
   {
     key: "estres",
@@ -173,11 +177,12 @@ export const ESTADOS = [
       ],
     },
     oracion: {
-      texto:
-        "Dios, hoy siento que todo es demasiado. Te pido que me ayudes a soltar la idea de resolverlo todo al mismo tiempo. Dame claridad para ver el próximo paso y descanso para las cargas que hoy no me corresponde llevar sola/o.",
-      versiculo: "Vengan a mí todos los que están cansados y agobiados, y yo les daré descanso.",
-      referencia: "Mateo 11:28",
-    },
+  texto:
+    "Dios, siento que llevo demasiadas responsabilidades sobre mis hombros y que, por momentos, no sé cómo continuar. Mi cuerpo está cansado, mi mente no se detiene y mi corazón necesita una pausa. Hoy te entrego todo lo que estoy intentando sostener sola. Ayudame a reconocer qué necesita realmente mi atención y qué puedo dejar para después. Recordame que descansar también es necesario, que no tengo que hacerlo todo perfectamente y que mi valor no depende de cuánto produzco o resuelvo. Regalame serenidad para ordenar mis pasos, paciencia para respetar mis tiempos y confianza para pedir ayuda cuando la necesite. Que tu presencia me acompañe en cada tarea y me enseñe a vivir un día a la vez, sin cargar hoy con el peso de mañana. Amén.",
+  versiculo:
+    "Vengan a mí todos ustedes que están cansados y agobiados, y yo les daré descanso.",
+  referencia: "Mateo 11:28",
+},
   },
   {
     key: "soledad",
@@ -209,12 +214,13 @@ export const ESTADOS = [
       ],
       fraseFinal: "No necesito llenar rápidamente este silencio. Puedo escucharme antes de elegir.",
     },
-    oracion: {
-      texto:
-        "Dios, cuando la soledad me duela, ayudame a no correr hacia personas, lugares o decisiones que no me hacen bien solamente por miedo al vacío. Enseñame a habitar mi propia compañía con ternura, a escuchar lo que verdaderamente necesito y a recordar el valor que pusiste en mí. Dame claridad para distinguir entre el impulso de escapar y el deseo sincero de compartir. Ayudame a elegir vínculos que me cuiden, me respeten y me permitan ser yo. Y cuando necesite compañía, dame humildad y valentía para acercarme a las personas adecuadas. Que tu presencia me recuerde que, aun en silencio, no estoy abandonada.",
-      versiculo: "Porque a mis ojos fuiste de gran estima, fuiste honorable, y yo te amé.",
-      referencia: "Isaías 43:4",
-    },
+   oracion: {
+  texto:
+    "Dios, hay momentos en los que me siento sola, incluso cuando estoy rodeada de personas. A veces siento que nadie comprende verdaderamente lo que sucede dentro de mí. Hoy te pido que te acerques a esos lugares silenciosos de mi corazón y me hagas sentir tu compañía. Ayudame a reencontrarme conmigo, a escuchar mis necesidades y a reconocer que mi presencia también es valiosa. Saná las heridas que me hicieron sentir apartada, olvidada o poco importante. Abrí mi corazón a vínculos sinceros, recíprocos y respetuosos, pero enseñame también a no abandonarme mientras espero. Que esta soledad pueda transformarse en un espacio de encuentro, crecimiento y verdad. Recordame que soy vista, escuchada y profundamente amada, incluso en los días en que me cuesta sentirlo. Amén.",
+  versiculo:
+    "Aunque mi padre y mi madre me abandonen, el Señor me recibirá en sus brazos.",
+  referencia: "Salmo 27:10",
+},
   },
   {
     key: "cansancio",
@@ -252,11 +258,12 @@ export const ESTADOS = [
       fraseFinal: "No estoy fallando. Estoy cansada y necesito recuperar espacio.",
     },
     oracion: {
-      texto:
-        "Dios, hoy estoy cansada/o y no quiero exigirme un poco más. Te pido que me des permiso interior para detenerme, y que en ese descanso pueda encontrar tu fortaleza. Ayudame a no convertir el descanso en una obligación más.",
-      versiculo: "Vengan a mí todos los que están cansados y agobiados, y yo les daré descanso.",
-      referencia: "Mateo 11:28",
-    },
+  texto:
+    "Dios, estoy cansada de sostener, de resolver, de preocuparme y de intentar mantenerme fuerte todo el tiempo. Hay un cansancio dentro de mí que no siempre se alivia durmiendo. Hoy dejo delante de vos todo lo que fui acumulando: responsabilidades, dolores, palabras, expectativas y preocupaciones. Ayudame a soltar la exigencia de poder con todo. Permitirme descansar sin culpa, recibir ayuda y reconocer mis propios límites. Restaurá las partes de mí que se fueron apagando mientras cuidaba de los demás. Devolveme lentamente la energía, la alegría y las ganas de continuar. Que no me apure, que pueda respetar mi proceso y comprender que detenerme no significa rendirme. Sosteneme mientras recupero mis fuerzas y recordame que también merezco ser cuidada. Amén.",
+  versiculo:
+    "Él fortalece al cansado y acrecienta las fuerzas del débil.",
+  referencia: "Isaías 40:29",
+},
   },
   {
     key: "dormir",
@@ -273,12 +280,13 @@ export const ESTADOS = [
       finalDiscreto: true,
       mensajeFinalDiscreto: "Por ahora, solamente descansá. No necesitás obligarte a dormir.",
     },
-    oracion: {
-      texto:
-        "Dios, el día termina y mi mente todavía sigue despierta. Te entrego lo que hice y lo que quedó pendiente. Ayudame a soltar el control de la noche y a confiar en que vos seguís cuidando mientras yo descanso.",
-      versiculo: "En paz me acostaré y dormiré, porque solo tú, Señor, me haces vivir confiado.",
-      referencia: "Salmo 4:8",
-    },
+   oracion: {
+  texto:
+    "Dios, al terminar este día pongo en tus manos todo lo que viví. Te entrego lo que salió bien, lo que me preocupó, lo que quedó pendiente y aquello que no pude resolver. Aquietá mi mente cuando intente volver una y otra vez sobre los mismos pensamientos. Calmame por dentro y ayudame a sentir que, por esta noche, ya hice suficiente. Mientras descanso, ocupate de todo aquello que escapa de mis manos y renová mis fuerzas. Que mi respiración se vuelva tranquila, que mi cuerpo pueda aflojarse y que mi sueño sea profundo y reparador. Cubrí mi hogar y a las personas que amo con tu protección. Mañana será un nuevo día; esta noche elijo soltar, confiar y descansar en tu presencia. Amén.",
+  versiculo:
+    "En paz me acostaré y dormiré, porque solo tú, Señor, me haces vivir confiada.",
+  referencia: "Salmo 4:8",
+},
     avisoDesplegable: {
       titulo: "Cuando dormir se vuelve difícil",
       texto:
